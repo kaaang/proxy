@@ -26,4 +26,9 @@ public class OrderControllerV3 {
     public String noLog() {
         return "ok";
     }
+
+    @GetMapping("/v3/test")
+    public String test(){
+        return "ok";
+    }
 }
